@@ -54,6 +54,15 @@
 			border-radius: 20px;
 		}
 
+		.data-subhead{
+			margin: auto;
+			width: 80%; /* Adjust width for responsiveness */
+			text-align: center;
+			font-size: 24px;
+			font-weight: normal;
+			margin-top: 10px;
+		}
+
 		/* Media queries for responsiveness */
 
 		/* For tablets and smaller screens */
@@ -74,6 +83,11 @@
 				width: 90%;
 				font-size: 30px; /* Adjust font size for small screens */
 			}
+
+			.data-subhead {
+				width: 90%;
+				font-size: 18px; /* Adjust font size for smaller screens */
+			}
 		}
 
 		/* For phones */
@@ -91,12 +105,17 @@
 			.data-head {
 				font-size: 24px; /* Further reduce the font size */
 			}
+
+			.data-subhead {
+				font-size: 16px; /* Further adjust font size for phones */
+			}
 		}
 	</style>
 </head>
 <body>
 
-	<div class="data-head">Sensor Realtime Readings</div>
+	<div class="data-head">PCL Room Availability</div>
+	<div class="data-subhead">Room 5.120</div>
 
 	<div class="data-container">
 		<div class="data-item">
