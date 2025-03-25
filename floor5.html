@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floor 5 - Room Availability</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- Display LOGO_2 for Floor 5 page -->
+        <img src="images/LOGO_2.png" alt="University of Texas Logo - Floor 5" class="logo">
+        <h1>Floor 5 - Room Availability</h1>
+    </header>
+
+    <!-- Floor Data Section -->
+    <div class="data-container">
+        <div class="data-item">
+            <h2>Distance</h2>
+            <p class="value" id="distance">0 cm</p>
+        </div>
+        <div class="data-item">
+            <h2>Sound</h2>
+            <p class="value" id="sound">0 dB</p>
+        </div>
+        <div class="data-item">
+            <h2>Status</h2>
+            <p class="value" id="status">Unknown</p>
+        </div>
+    </div>
+
+    <button onclick="location.href='floor_home.html'" class="back-button">Back to Floor Selection</button>
+
+    <!-- Firebase Scripts -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+
+    <script type="module">
+        // Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyDSgBtevM14vLQk7MkJZHxB7nR1dqzFtsc",
+            authDomain: "study-room-availability.firebaseapp.com",
+            databaseURL: "https://study-room-availability-default-rtdb.firebaseio.com",
+            projectId: "study-room-availability",
+            storageBucket: "study-room-availability.firebasestorage.app",
+            messagingSenderId: "435040431355",
+            appId: "1:435040431355:web:2595d30752741679cdd45e"
+        };
+
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+
+        // Get a reference
