@@ -1,0 +1,77 @@
+/* General Body Styles */
+body {
+    background-color: #FFFFFF; /* Pure white background */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Header Styles */
+header {
+    margin-bottom: 50px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Heading Styles */
+h1 {
+    color: #BF5700; /* UT Burnt Orange */
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Floor 4 Page Data Section Styles */
+h2 {
+    color: #BF5700; /* Burnt orange for section headings */
+}
+
+.value {
+    color: #BF5700; /* Burnt orange for the data values */
+}
+
+/* Floor Container Styles */
+.floor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Floor Button Styles */
+.floor-button {
+    width: 200px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #BF5700; /* UT Burnt Orange */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.floor-button:hover {
+    background-color: #9F4F00; /* Darker shade of Burnt Orange */
+}
+
+/* Back Button Styles */
+.back-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #BF5700; /* UT Burnt Orange */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.back-button:hover {
+    background-color: #9F4F00; /* Darker shade of Burnt Orange */
+}
